@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GetImageFromNet</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="url">http://imgrt.pconline.com.cn/images/upload/upc/tx/wallpaper/1206/19/c0/spcgroup/12058119_1340091096509_1440x900.jpg</string>
+</resources>

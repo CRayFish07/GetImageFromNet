@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/fromHttp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="从网络上获取图片" />
+
+        <Button
+            android:id="@+id/fromSDCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="从SD卡中获取图片" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="329dp" >
+
+        <ImageView
+            android:id="@+id/showPictrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center" />
+        <ImageView
+            android:id="@+id/showLocalPictrue"
+            android:layout_below="@+id/showPictrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center" />
+
+    </RelativeLayout>
+
+</LinearLayout>
